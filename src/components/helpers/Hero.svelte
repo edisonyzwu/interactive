@@ -6,7 +6,7 @@
 	{#if src.endsWith(".mp4")}
 		<video {src} autoplay loop muted playsinline></video>
 	{:else}
-		<img {src} {alt} />
+		<img <img src="/project/hero.png" alt="immigrant workers" /> />
 	{/if}
 
 	<div class="text">
