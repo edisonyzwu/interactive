@@ -89,8 +89,7 @@
 				<p>This is not an easy task. The immigrants will not sit still.</p>
 			</div>
 			<div class="icon-container">
-				<!-- <img src="/project/icon-arrest.svg" alt="Police officers" /> -->
-				<img src="assets/demo/test.jpg" alt="Police officers" />
+				<img src="/project/icon-arrest.svg" alt="Police officers" />
 			</div>
 		</div>
 
@@ -133,8 +132,8 @@
 			</div>
 		</div>
 		<p>
-			Currently, there are approximately 40,000[2] detention beds across the
-			United States, which is nowhere near enough to support the need to hold
+			Currently, there are approximately 40,000<sup>[1]</sup> detention beds across
+			the United States, which is nowhere near enough to support the need to hold
 			more than one million people per year.
 		</p>
 		<p>
@@ -187,7 +186,7 @@
 			Estimates of government spending on legal proceedings are expected to
 			reach $34.1 billion.
 		</p>
-		<p>Equivalent to approximately $100 per U.S. resident[3].</p>
+		<p>Equivalent to approximately $100 per U.S. resident<sup>[2]</sup>.</p>
 
 		<div class="arrest-section">
 			<div class="content">
@@ -265,7 +264,8 @@
 		</p>
 		<p>
 			It is estimated that if 1 million people were evicted each year for 10.6
-			years, the total cost would amount to about <strong>$967.9 Billion</strong
+			years, the total cost would amount to about <strong
+				>$967.9 Billion<sup>[1]</sup></strong
 			>.
 		</p>
 
@@ -333,13 +333,12 @@
 		<div class="methodology">
 			<h2>Authors' note</h2>
 			<p>
-				Data collected by <a
+				[1] Data collected by <a
 					href="https://www.americanimmigrationcouncil.org/research/mass-deportation"
 					target="_blank"
 					rel="noopener noreferrer">American Immigration Council</a
 				>
 			</p>
-			<p>[1]</p>
 			<p>
 				[2] PBS Immigrant detention beds may be maxed out as Trump promises mass
 				deportations
