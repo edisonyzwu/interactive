@@ -32,12 +32,16 @@
 
 	.text {
 		position: absolute;
-		top: 50%;
+		top: 60%;
 		left: 50%;
-		transform: translate(-50%, -50%);
-		color: white;
-		background: rgba(0, 0, 0, 0.5);
+		transform: translate(-50%, -70%);
+		color: rgb(243, 243, 243);
+		background: rgba(2, 2, 2, 0.5);
 		padding: 0 1rem;
 		text-align: center;
+		font-family:
+			ui-sans-serif,
+			system-ui,
+			-apple-system;
 	}
 </style>
