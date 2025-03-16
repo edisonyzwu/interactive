@@ -89,7 +89,8 @@
 				<p>This is not an easy task. The immigrants will not sit still.</p>
 			</div>
 			<div class="icon-container">
-				<img src="/project/icon-arrest.svg" alt="Police officers" />
+				<!-- <img src="/project/icon-arrest.svg" alt="Police officers" /> -->
+				<img src="assets/demo/test.jpg" alt="Police officers" />
 			</div>
 		</div>
 
