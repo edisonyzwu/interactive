@@ -8,9 +8,9 @@
 
 	<nav>
 		<ul>
-			<li><a href="#project">Project</a></li>
+			<li><a href="/">Project</a></li>
 			<!-- <li><a href="#methodology">Methodology</a></li> -->
-			<li><a href="#about">Behind the Story</a></li>
+			<li><a href="/">Behind the Story</a></li>
 		</ul>
 	</nav>
 </header>
