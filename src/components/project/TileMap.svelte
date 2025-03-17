@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from "svelte";
 	import * as d3 from "d3";
+	import { base } from "$app/paths";
 
 	let data = [];
 	let svgElement;
@@ -28,7 +29,7 @@
 
 	onMount(async () => {
 		try {
-			data = await d3.csv("/data.csv", d3.autoType);
+			data = await d3.csv(`${base}/data.csv`, d3.autoType);
 			console.log("📌 CSV Data Loaded Successfully:", data);
 
 			const svg = d3
