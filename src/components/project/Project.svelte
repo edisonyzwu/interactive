@@ -4,6 +4,7 @@
 	// import ProjectImages from "$components/project/Project.Images.svelte";
 	// import ProjectVideo from "$components/project/Project.Video.svelte";
 	import TileMap from "$components/project/TileMap.svelte";
+	import { base } from "$app/paths";
 	/*
 		This is a demonstration of all the helper components.
 	*/
@@ -74,7 +75,7 @@
 		</p>
 
 		<div class="image">
-			<img src="/project/process.svg" alt="process of deportation" />
+			<img src={`${base}/project/process.svg`} alt="process of deportation" />
 		</div>
 
 		<p>And all at the expense of the American taxpayer.</p>
@@ -89,7 +90,7 @@
 				<p>This is not an easy task. The immigrants will not sit still.</p>
 			</div>
 			<div class="icon-container">
-				<img src="/project/icon-arrest.svg" alt="Police officers" />
+				<img src={`${base}/project/icon-arrest.svg`} alt="Police officers" />
 			</div>
 		</div>
 
@@ -128,7 +129,7 @@
 				</p>
 			</div>
 			<div class="icon-container">
-				<img src="/project/icon-detention.svg" alt="Detention" />
+				<img src={`${base}/project/icon-detention.svg`} alt="Detention" />
 			</div>
 		</div>
 		<p>
@@ -142,10 +143,10 @@
 		</p>
 
 		<div class="image-space">
-			<img src="/project/detention-cost.svg" alt="cost" />
+			<img src={`${base}/project/detention-cost.svg`} alt="cost" />
 		</div>
 		<div class="image-space">
-			<img src="/project/space.svg" alt="space" />
+			<img src={`${base}/project/space.svg`} alt="space" />
 		</div>
 
 		<div class="arrest-section">
@@ -160,7 +161,7 @@
 				</p>
 			</div>
 			<div class="icon-container">
-				<img src="/project/icon-legal.svg" alt="Legal Process" />
+				<img src={`${base}/project/icon-legal.svg`} alt="Legal Process" />
 			</div>
 		</div>
 
@@ -197,7 +198,7 @@
 				</p>
 			</div>
 			<div class="icon-container">
-				<img src="/project/icon-deportation.svg" alt="Deportation" />
+				<img src={`${base}/project/icon-deportation.svg`} alt="Deportation" />
 			</div>
 		</div>
 
@@ -295,7 +296,10 @@
 		</p>
 		<p>What would happen if we lose them?</p>
 		<div class="image">
-			<img src="/project/construction.svg" alt="construction and agriculture" />
+			<img
+				src={`${base}/project/construction.svg`}
+				alt="construction and agriculture"
+			/>
 		</div>
 		<p>
 			Specific occupations: trades such as plasterers, roofers, and painters,

@@ -1,5 +1,6 @@
 <script>
 	import Scrolly from "$components/helpers/Scrolly.svelte";
+	import { base } from "$app/paths";
 
 	/*
 		Scrolly is a component that allows you to create a scrollytelling effect.
@@ -24,17 +25,17 @@
 <section id="scrolly">
 	<div class="sticky">
 		{#if value === 0}
-			<img src="/project/map1.svg" alt="a map of US" />
+			<img src={`${base}/project/map1.svg`} alt="a map of US" />
 		{:else if value === 1}
-			<img src="/project/map1-1.svg" alt="a map of US with Georgia" />
+			<img src={`${base}/project/map1-1.svg1`} alt="a map of US with Georgia" />
 		{:else if value === 2}
-			<img src="/project/family.png" alt="an immigrant family" />
+			<img src={`${base}/project/family.png`} alt="an immigrant family" />
 		{:else if value === 3}
-			<img src="/project/driver.png" alt="immigrant workers" />
+			<img src={`${base}/project/driver.png`} alt="immigrant workers" />
 		{:else if value === 4}
-			<img src="/project/hospital.png" alt="immigrant workers" />
+			<img src={`${base}/project/hospital.png`} alt="immigrant workers" />
 		{:else if value === 5}
-			<img src="/project/leave.png" alt="immigrant workers left" />
+			<img src={`${base}/project/leave.png`} alt="immigrant workers left" />
 		{:else}
 			<!-- <h2>Current scroll step: <span>{value}</span></h2> -->
 		{/if}

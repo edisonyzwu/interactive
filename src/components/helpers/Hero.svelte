@@ -1,4 +1,5 @@
 <script>
+	import { base } from "$app/paths";
 	const { hed, dek, byline, src, alt } = $props();
 </script>
 
@@ -6,7 +7,7 @@
 	{#if src.endsWith(".mp4")}
 		<video {src} autoplay loop muted playsinline></video>
 	{:else}
-		<img <img src="/project/hero.png" alt="immigrant workers" /> />
+		<img <img src={`${base}/project/hero.png`} alt="immigrant workers" /> />
 	{/if}
 
 	<div class="text">
