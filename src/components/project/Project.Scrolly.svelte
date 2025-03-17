@@ -72,7 +72,7 @@
 	}
 
 	.spacer {
-		height: 50vh;
+		height: 10vh;
 	}
 
 	.step {
