@@ -27,7 +27,7 @@
 		{#if value === 0}
 			<img src={`${base}/project/map1.svg`} alt="a map of US" />
 		{:else if value === 1}
-			<img src={`${base}/project/map1-1.svg1`} alt="a map of US with Georgia" />
+			<img src={`${base}/project/map1-1.svg`} alt="a map of US with Georgia" />
 		{:else if value === 2}
 			<img src={`${base}/project/family.png`} alt="an immigrant family" />
 		{:else if value === 3}
