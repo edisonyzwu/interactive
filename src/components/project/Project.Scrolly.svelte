@@ -36,7 +36,7 @@
 		{:else if value === 5}
 			<img src="/project/leave.png" alt="immigrant workers left" />
 		{:else}
-			<h2>Current scroll step: <span>{value}</span></h2>
+			<!-- <h2>Current scroll step: <span>{value}</span></h2> -->
 		{/if}
 	</div>
 
