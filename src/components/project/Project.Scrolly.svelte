@@ -25,7 +25,7 @@
 <section id="scrolly">
 	<div class="sticky">
 		{#if value === 0}
-			<img src={`${base}/static/project/map1.svg`} alt="a map of US" />
+			<img src={`${base}/project/map1.svg`} alt="a map of US" />
 		{:else if value === 1}
 			<img src={`${base}/project/map1-1.svg`} alt="a map of US with Georgia" />
 		{:else if value === 2}
