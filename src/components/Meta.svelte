@@ -1,6 +1,6 @@
 <script>
 	let {
-		title = "The $315 Billion Question",
+		title = "Title TK",
 		description = "Description TK",
 		url = "https://pudding.cool",
 		keywords = "",
