@@ -1,0 +1,299 @@
+.
+├── LICENSE
+├── Makefile
+├── README.md
+├── docs
+│   ├── __data.json
+│   ├── _app
+│   │   ├── env.js
+│   │   ├── immutable
+│   │   │   ├── assets
+│   │   │   │   ├── 0.BS9OoAlD.css
+│   │   │   │   ├── 2.CnNDSXN6.css
+│   │   │   │   ├── _layout.BU7BX108.css
+│   │   │   │   └── _page.CnNDSXN6.css
+│   │   │   ├── chunks
+│   │   │   │   ├── BQ3vlNbr.js
+│   │   │   │   ├── BT1t7_gK.js
+│   │   │   │   ├── CHDSMGhC.js
+│   │   │   │   ├── D8TLWQac.js
+│   │   │   │   ├── DnZn9v1V.js
+│   │   │   │   ├── DzQDdtam.js
+│   │   │   │   ├── qikLQzry.js
+│   │   │   │   └── vrGNpJ3x.js
+│   │   │   ├── entry
+│   │   │   │   ├── app.CLtYQrgP.js
+│   │   │   │   └── start.CdOBEgDy.js
+│   │   │   └── nodes
+│   │   │       ├── 0.CCe6NOoU.js
+│   │   │       ├── 1.DGxyB7O2.js
+│   │   │       └── 2.BPJx8D2D.js
+│   │   └── version.json
+│   ├── demo
+│   │   └── assets
+│   │       └── demo
+│   │           ├── Step1.svg
+│   │           ├── Step2.svg
+│   │           ├── Step3.svg
+│   │           ├── Step4.svg
+│   │           ├── construction.svg
+│   │           ├── detention-cost.svg
+│   │           ├── driver.png
+│   │           ├── family.png
+│   │           ├── hero.png
+│   │           ├── hospital.png
+│   │           ├── icon-arrest.svg
+│   │           ├── icon-deportation.svg
+│   │           ├── icon-detention.svg
+│   │           ├── icon-legal.svg
+│   │           ├── leave.png
+│   │           ├── logo.png
+│   │           ├── map1-1.svg
+│   │           ├── map1.svg
+│   │           ├── map2.svg
+│   │           ├── process.svg
+│   │           ├── space.svg
+│   │           └── world map.svg
+│   ├── favicon.ico
+│   ├── index.html
+│   └── project
+│       ├── Step1.svg
+│       ├── Step2.svg
+│       ├── Step3.svg
+│       ├── Step4.svg
+│       ├── construction.svg
+│       ├── detention-cost.svg
+│       ├── driver.png
+│       ├── family.png
+│       ├── hero.png
+│       ├── hospital.png
+│       ├── icon-arrest.svg
+│       ├── icon-deportation.svg
+│       ├── icon-detention.svg
+│       ├── icon-legal.svg
+│       ├── leave.png
+│       ├── logo.png
+│       ├── map1-1.svg
+│       ├── map1.svg
+│       ├── map2.svg
+│       ├── process.svg
+│       ├── space.svg
+│       └── world map.svg
+├── google.config.js
+├── jsconfig.json
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── properties
+│   ├── category.json
+│   ├── color.json
+│   └── font-size.json
+├── src
+│   ├── actions
+│   │   ├── canTab.js
+│   │   ├── checkOverlap.js
+│   │   ├── focusTrap.js
+│   │   ├── inView.js
+│   │   ├── keepWithinBox.js
+│   │   └── resize.js
+│   ├── app.html
+│   ├── components
+│   │   ├── Footer.svelte
+│   │   ├── Header.svelte
+│   │   ├── Index.svelte
+│   │   ├── Meta.svelte
+│   │   ├── figure
+│   │   │   └── migrate
+│   │   │       ├── Figure.MapCanvas.svelte
+│   │   │       ├── Figure.MapLabels.svelte
+│   │   │       ├── Figure.MapPath.svelte
+│   │   │       ├── Figure.MapPoints.svelte
+│   │   │       ├── Figure.MapSvg.svelte
+│   │   │       ├── Figure.Template.svelte
+│   │   │       ├── Figure.Tooltip.svelte
+│   │   │       └── Figure.svelte
+│   │   ├── helpers
+│   │   │   ├── CMS.svelte
+│   │   │   ├── Hero.svelte
+│   │   │   ├── Image.svelte
+│   │   │   ├── Scrolly.svelte
+│   │   │   ├── Video.svelte
+│   │   │   └── migrate
+│   │   │       ├── ShareLink.svelte
+│   │   │       ├── Slider.Slide.svelte
+│   │   │       ├── Slider.svelte
+│   │   │       ├── SortTable.svelte
+│   │   │       ├── Tap.svelte
+│   │   │       ├── Tip.svelte
+│   │   │       └── Toggle.svelte
+│   │   ├── layercake
+│   │   │   ├── future
+│   │   │   │   ├── Beeswarm.html.svelte
+│   │   │   │   ├── Beeswarm.svg.svelte
+│   │   │   │   ├── BeeswarmForce.html.svelte
+│   │   │   │   ├── BeeswarmForce.svelte
+│   │   │   │   ├── CirclePack.html.svelte
+│   │   │   │   ├── ClevelandDotPlot.svelte
+│   │   │   │   ├── Map.canvas.svelte
+│   │   │   │   ├── Map.svg.svelte
+│   │   │   │   ├── MapLabels.html.svelte
+│   │   │   │   ├── MapLabels.svg.svelte
+│   │   │   │   ├── MapPoints.canvas.svelte
+│   │   │   │   ├── MapPoints.html.svelte
+│   │   │   │   ├── MapPoints.svelte
+│   │   │   │   └── MultiLine.svelte
+│   │   │   └── migrate
+│   │   │       ├── Area.svelte
+│   │   │       ├── AxisX.html.svelte
+│   │   │       ├── AxisX.svg.svelte
+│   │   │       ├── AxisY.html.svelte
+│   │   │       ├── AxisY.svg.svelte
+│   │   │       ├── Bar.svelte
+│   │   │       ├── Column.svelte
+│   │   │       ├── ColumnStacked.svelte
+│   │   │       ├── Line.svelte
+│   │   │       ├── Scatter.canvas.svelte
+│   │   │       ├── Scatter.html.svelte
+│   │   │       ├── Scatter.svg.svelte
+│   │   │       ├── Tooltip.html.svelte
+│   │   │       └── Voronoi.svelte
+│   │   └── project
+│   │       ├── Project.Hero.svelte
+│   │       ├── Project.Images.svelte
+│   │       ├── Project.Scrolly.svelte
+│   │       ├── Project.Video.svelte
+│   │       ├── Project.svelte
+│   │       └── TileMap.svelte
+│   ├── data
+│   │   ├── copy.json
+│   │   ├── test.csv
+│   │   └── variables.json
+│   ├── routes
+│   │   ├── +error.svelte
+│   │   ├── +layout.js
+│   │   ├── +layout.svelte
+│   │   ├── +page.server.js
+│   │   └── +page.svelte
+│   ├── runes
+│   │   ├── misc.svelte.js
+│   │   ├── useClipboard.svelte.js
+│   │   ├── useFetcher.svelte.js
+│   │   ├── useWindowDimensions.svelte.js
+│   │   └── useWindowFocus.svelte.js
+│   ├── styles
+│   │   ├── app.css
+│   │   ├── font.css
+│   │   ├── normalize.css
+│   │   ├── reset.css
+│   │   └── variables.css
+│   ├── svg
+│   │   ├── arrow-footer.svg
+│   │   ├── arrow-up-right.svg
+│   │   ├── logo-black.svg
+│   │   ├── logo-white.svg
+│   │   ├── play.svg
+│   │   ├── wordmark-bubble.svg
+│   │   ├── wordmark-line.svg
+│   │   ├── wordmark-plain.svg
+│   │   ├── wordmark-shadow.svg
+│   │   └── wordmark-sticker.svg
+│   └── utils
+│       ├── checkScrollDir.js
+│       ├── csvDownload.js
+│       ├── generateId.js
+│       ├── loadCsv.js
+│       ├── loadImage.js
+│       ├── loadJson.js
+│       ├── loadPixels.js
+│       ├── localStorage.js
+│       ├── locate.js
+│       ├── mapToArray.js
+│       ├── transformSvg.js
+│       ├── translate.js
+│       ├── urlParams.js
+│       └── version.js
+├── static
+│   ├── assets
+│   │   └── demo
+│   │       ├── fonts
+│   │       │   ├── atkinson.css
+│   │       │   ├── atlas-typewriter.css
+│   │       │   ├── atlas.css
+│   │       │   ├── baloo-bhai.css
+│   │       │   ├── canela.css
+│   │       │   ├── computer-modern.css
+│   │       │   ├── cozette.css
+│   │       │   ├── inconsolata.css
+│   │       │   ├── inter.css
+│   │       │   ├── jamboree.css
+│   │       │   ├── jersey.css
+│   │       │   ├── lyon.css
+│   │       │   ├── metropolis.css
+│   │       │   ├── national.css
+│   │       │   ├── publico.css
+│   │       │   ├── recoleta.css
+│   │       │   ├── rubik.css
+│   │       │   ├── spacemono.css
+│   │       │   └── tiempos.css
+│   │       ├── test.csv
+│   │       ├── test.jpg
+│   │       └── test.mp4
+│   ├── data.csv
+│   ├── demo
+│   │   └── assets
+│   │       └── demo
+│   │           ├── Group 56.svg
+│   │           ├── Step1.svg
+│   │           ├── Step2.svg
+│   │           ├── Step3.svg
+│   │           ├── Step4.svg
+│   │           ├── construction.svg
+│   │           ├── detention-cost.svg
+│   │           ├── driver.png
+│   │           ├── family.png
+│   │           ├── hero.png
+│   │           ├── hospital.png
+│   │           ├── icon-arrest.svg
+│   │           ├── icon-deportation.svg
+│   │           ├── icon-detention.svg
+│   │           ├── icon-legal.svg
+│   │           ├── leave.png
+│   │           ├── logo.png
+│   │           ├── map1-1.svg
+│   │           ├── map1.svg
+│   │           ├── map2.svg
+│   │           ├── process.svg
+│   │           ├── space.svg
+│   │           └── world map.svg
+│   ├── favicon.ico
+│   └── project
+│       ├── Step1.svg
+│       ├── Step2.svg
+│       ├── Step3.svg
+│       ├── Step4.svg
+│       ├── construction.svg
+│       ├── detention-cost.svg
+│       ├── driver.png
+│       ├── family.png
+│       ├── hero.png
+│       ├── hospital.png
+│       ├── icon-arrest.svg
+│       ├── icon-deportation.svg
+│       ├── icon-detention.svg
+│       ├── icon-legal.svg
+│       ├── leave.png
+│       ├── logo.png
+│       ├── map1-1.svg
+│       ├── map1.svg
+│       ├── map2.svg
+│       ├── process.svg
+│       ├── space.svg
+│       └── world map.svg
+├── structure.txt
+├── svelte.config.js
+├── tasks
+│   ├── fetch-google.js
+│   └── style-dictionary.js
+└── vite.config.js
+
+39 directories, 258 files
